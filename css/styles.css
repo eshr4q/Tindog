@@ -144,3 +144,26 @@ font-family: 'Ubuntu', sans-serif;
 
     }
 }
+
+/* Call to Action */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+    color: #fff;
+    padding: 150px;
+    
+    .btn {
+        margin-top: 20px;
+
+    }
+
+}
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 100Px;
+}
+
