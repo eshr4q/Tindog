@@ -150,20 +150,21 @@ font-family: 'Ubuntu', sans-serif;
 #cta {
     background-color: #ff4c68;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;;
     color: #fff;
-    padding: 150px;
+    padding: 7% 15%;
     
-    .btn {
-        margin-top: 20px;
-
-    }
-
 }
+.cta-heading {
+    font-family: 'montserrat-black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer-sectio */
 
 #footer {
     text-align: center;
     background-color: #fff;
-    padding: 100Px;
+    padding: 7% 15%;
 }
 
