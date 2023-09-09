@@ -1,15 +1,16 @@
-
 body {
-    font-family: "montserrate";
+    font-family: "montserrat";
     text-align: center;
 }
 
-h1, h2, h3, h4 {
-    font-family: "montserrate-bold";
+h1, h2, h3, h4, h5, h6 {
+    font-family: "montserrat-bold";
+   
 }
 
 p {
     color: #8f8f8f;
+   
 }
 
 
@@ -20,17 +21,20 @@ p {
     font-family: "montserrat-black";
     font-size: 3.5rem;
     line-height: 1.5;
+    padding-top: 100px;
 }
 
 .section-heading {
     font-size: 3rem;
     line-height: 1.5;
+
 }
  
 /* contaners */
 
 .container-fluid {
     padding: 7% 15%;
+    
 } 
 
 /* sections */
@@ -38,18 +42,20 @@ p {
 .colored-section {
     background-color: #ff4c68;
     color: #fff;
+    text-align: center;
 
 }
 
 .white-section {
     background-color: #fff;
+    text-align: center;
 
 }
 
 /* navigation bar */
 
 .navbar {
-    padding: 0 0 4.4rem;
+    padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
@@ -64,7 +70,7 @@ p {
 }
  .nav-link {
     font-size: 1.2rem;
-    font-family: "montserrate-light";
+    font-family: "montserrat-light";
  }
 
  /* download buttons */
@@ -74,6 +80,11 @@ p {
  }
 
 /* title-section */
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
 
 #title .container-fluid{
     padding: 3% 15% 7%;
@@ -90,7 +101,7 @@ p {
  /* features section */
  
  #features {
-    padding: 7% 15%;
+    /* padding: 7% 15%; */
     position: relative;
     /* z-index: 1; */
  }
@@ -102,6 +113,15 @@ p {
  .feature-box {
     padding: 4.5%;
  }  
+
+ .icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+ }
+
+ .icon:hocwe {
+    color: #ff4c68;
+ }
 
  /* testimonials section */
 
@@ -122,15 +142,11 @@ p {
     margin: 20px;
  }
  
-.carousel-item {
-    
-}
 
 /* press */
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 
 }
@@ -152,7 +168,7 @@ p {
     line-height: 1.5;
 }
 .pricing-column {
-   
+   padding: 3% 2%;
 }
 
 @media (max-width: 1028px) {
@@ -161,7 +177,6 @@ p {
         text-align: center;
     }
     .title-image {
-        width: 60%;
         position: static;
         transform: rotate(0);
 
@@ -171,10 +186,8 @@ p {
 /* Call to Action */
 
 
-/* footer-sectio */
+/* footer-section */
 
-#footer {
-    background-color: #fff;
-    
+.social-icon {
+    margin: 20px 10px;
 }
-
